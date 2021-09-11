@@ -2,39 +2,39 @@
 /* css */
 
 .container {
-  position: fixed;
+  position: absolute;
   height: 1000px;
   width: 1000px;
 }
 
 .skin {
   background-color: #F3B1A3;
-  position: fixed;
+  position: absolute;
 }
 
 .hair {
     background-color: #856E66;
-    position: fixed;
+    position: absolute;
 }
 
 .eyebrow {
   background-color: #480000;
-  position: fixed;
+  position: absolute;
 }
 
 .white {
     background-color: #FFFFFF;
-    position: fixed;
+    position: absolute;
 }
 
 .nose {
     background-color: #CB887E;
-    position: fixed;
+    position: absolute;
 }
 
 .black {
     background-color: #000000;
-    position: fixed;
+    position: absolute;
 }
 
 .nineteen {
@@ -117,7 +117,7 @@
 
 .five {
   background-color: #7F322F;
-  position: fixed;
+  position: absolute;
   height: 20px;
   width: 78px;
   left: 136px;

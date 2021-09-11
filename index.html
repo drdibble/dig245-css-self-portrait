@@ -40,6 +40,20 @@
   <div class="twentyfive white"></div>
 </div>
 
+<div id="display"></div>
+<script>
+document.addEventListener('mousemove', (event) => {
+  var posx = event.clientX;
+  var posy = event.clientY;
+  var coords = "X: " + posx + ", Y: " + posy;
+  document.getElementById("display").innerHTML = coords;
+});
+
+
+console.log(document.querySelectorAll("div").length - 1); // subtracted 1 because of the div for the coordinates
+</script>
+
+
 <script src="assets/js/main.js"></script>
 </body>
 </html>
